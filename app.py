@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import streamlit as st
 
 st.title("Stem and Leaf Plot Generator ")
 
