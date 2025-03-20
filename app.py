@@ -338,7 +338,7 @@ def stemandleaf():
             else:
                 leaves_pretty+=str(leaf)+"  "
         
-        output+="   "+stem"  | "+leaves_pretty+"\n\n"
+        output+="   "+stem+"  | "+leaves_pretty+"\n\n"
         
     st.code(f"```\n{output}```",language="")
 
