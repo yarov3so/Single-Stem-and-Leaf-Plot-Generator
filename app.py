@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import re
-import steamlit as st
 
 st.title("Stem and Leaf Plot Generator ")
 
