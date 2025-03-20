@@ -319,7 +319,7 @@ def stemandleaf():
 
                 Lpad=len(fullstem)
 
-                output+="  "+" L"+" "*(Lpad-1)+"  |"+smallerleaves_pretty+"\n\n"
+                output+="  "+" L"+" "*(Lpad-1)+"  | "+smallerleaves_pretty+"\n\n"
                     
         
         leaves_pretty=" "    
