@@ -153,7 +153,7 @@ def stemandleaf():
     print("\nStem and Leaf Plot Generator by yarov3so\n")
     data=st.text_input("Enter all the values from the data set, separated by commas: ")
 
-    if data="":
+    if data=="":
         st.stop()
     
     data=comprehend(data)
