@@ -240,7 +240,7 @@ def stemandleaf():
         for leaf in leaves:
             if stem_pos==0 and leaf!="0" and str(leaf)[0]!="'": 
                 leaves_pretty+=str(leaf)[1:]+"  "
-            elif stem_pos==0 and leaf==0:
+            elif stem_pos==0 and leaf=="0":
                 leaves_pretty+=".0  "
             else:
                 leaves_pretty+=str(leaf)+"  "
@@ -333,7 +333,7 @@ def stemandleaf():
         for leaf in leaves:
             if stem_pos==0 and leaf!="0" :
                 leaves_pretty+=str(leaf)[1:]+"  "
-            elif stem_pos==0 and leaf==0:
+            elif stem_pos==0 and leaf=="0":
                 leaves_pretty+=".0  "
             else:
                 leaves_pretty+=str(leaf)+"  "
