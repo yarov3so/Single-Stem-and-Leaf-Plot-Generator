@@ -147,8 +147,7 @@ def truncate(num,pos):
 
 def stemandleaf():
 
-    st.markdown("*by yarov3so*")
-    st.text("Generates a compact and a full stem and leaf plot for a (reasonably well-behaved) set of values.")
+    st.markdown("Generates a compact and a full stem and leaf plot for a (reasonably well-behaved) set of values.")
 
     print("\nStem and Leaf Plot Generator by yarov3so\n")
     data=st.text_input("Enter all the values from the data set, separated by commas: ")
