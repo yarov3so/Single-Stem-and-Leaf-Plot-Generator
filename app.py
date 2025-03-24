@@ -4,6 +4,11 @@
 import re
 import streamlit as st
 
+st.set_page_config(
+    page_title="Stem and Leaf Plot Generator",
+    page_icon="MHT.png", 
+)
+
 st.title("Stem and Leaf Plot Generator ")
 
 def comprehend(mystring):
