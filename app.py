@@ -253,7 +253,7 @@ def stemandleaf():
     st.code(f"```\n{output}```",language="")
 
     st.text("\nIn the full stem and leaf plot below, the 'L' row, if present, contains data values of magnitudes lower than the ones represented on the remainder of the plot. Their stem L does not contribute any digits, so their original values are precisely their leaf values.")
-    st.markdown("*Note: when the stems capture variation in the first digit of each number, the compact and full stem and leaf plots are identical.*"
+    st.markdown("*Note: when the stems capture variation in the first digit of each number, the compact and full stem and leaf plots are identical.*")
     
     st.markdown("#### Full Stem and Leaf Plot:")
 
